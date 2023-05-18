@@ -2,8 +2,9 @@
 
 In this directory you will find two R files:
 
-"run_main.R"
-"run_single_instance.R"
+- "run_main.R"
+- "run_single_instance.R"
+
 run_main.R is the main source file. The simulation will start with the selected date and pollutant. run_single_instance.R is called by run_main and performs all the computations.
 
 Every computation is based on several input files:
