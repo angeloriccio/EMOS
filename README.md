@@ -9,10 +9,10 @@ run_main.R is the main source file. The simulation will start with the selected 
 
 Every computation is based on several input files:
 
-"coords_est.csv"
-"coords_val.csv"
-"Italy_\<poll\>data_\<date\>_est.csv"
-"Italy_\<poll\>data_\<date\>_val.csv"
+- "coords_est.csv"
+- "coords_val.csv"
+- "Italy_\<poll\>data_\<date\>_est.csv"
+- "Italy_\<poll\>data_\<date\>_val.csv"
 
 "coords_est.csv" stores the coordinates (UTM32) of each monitoring station selected for estimation purposes. "coords_val.csv" stores the same information, but for stations used for validation purposes.
 For each selected date, the auxiliary variables used for the spatio-temporal regression are stored in the "Italy_\<poll\>data_\<date\>est.csv" file, where date is the date in dd-mmm-yyyy format.
